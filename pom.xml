@@ -103,7 +103,7 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.1</version> <!-- Update the version -->
+            <version>3.8.7</version> <!-- Update the version -->
             <configuration>
                 <source>8</source> <!-- Update to Java 8 or later -->
                 <target>8</target> <!-- Update to Java 8 or later -->
