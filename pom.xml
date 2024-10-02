@@ -96,13 +96,20 @@
 		    <version>1.2.3</version>
 		</dependency>
 	</dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.1</version> <!-- Updated version -->
-            </plugin>
-        </plugins>
-    </build>
+
+	
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version> <!-- Update the version -->
+            <configuration>
+                <source>8</source> <!-- Update to Java 8 or later -->
+                <target>8</target> <!-- Update to Java 8 or later -->
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
 </project>
